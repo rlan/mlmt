@@ -4,6 +4,9 @@ version = "0.0.1"
 description = "A Machine Learning Multi-Tool"
 authors = ["Rick Lan <rlan@users.noreply.github.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rlan/mlmt"
+homepage = "https://github.com/rlan/mlmt"
 
 [tool.poetry.dependencies]
 python = "^3.6"
