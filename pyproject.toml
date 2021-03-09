@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mlmt"
+version = "0.0.1"
+description = "A Machine Learning Multi-Tool"
+authors = ["Rick Lan <rlan@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rlan/mlmt"
+homepage = "https://github.com/rlan/mlmt"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+numpy = "^1.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
