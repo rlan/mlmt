@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mlmt"
-version = "0.0.1"
+version = "0.0.2"
 description = "A Machine Learning Multi-Tool"
 authors = ["Rick Lan <rlan@users.noreply.github.com>"]
 license = "MIT"
