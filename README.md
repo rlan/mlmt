@@ -1,5 +1,10 @@
 # A Machine Learning Multi-Tool (mlmt)
 
+![](https://img.shields.io/pypi/v/mlmt)
+![](https://img.shields.io/pypi/format/mlmt)
+![](https://img.shields.io/pypi/pyversions/mlmt)
+![](https://img.shields.io/pypi/l/mlmt)
+
 A collection of loosely organized code to assist machine learning research.
 
 ## Installation
@@ -13,3 +18,7 @@ pip install --upgrade mlmt
 ```python
 import mlmt
 ```
+
+## Developer's Guide
+
+See project [wiki](https://github.com/rlan/mlmt/wiki).
