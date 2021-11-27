@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 
@@ -32,3 +33,33 @@ def pd_load(file_name : str) -> pd.DataFrame:
   See also: pd_save
   """
   return pd.read_hdf(file_name, 'df')
+
+
+def ls(folder : str, extension : str = '') -> list:
+  """List file names of a given extension in a given folder.
+
+  Parameters
+  ----------
+  folder : str
+      Folder to process.
+  extension : str
+      Extension to search. Default: '' (empty) returns all file names.
+
+  Returns
+  -------
+  list[str]
+      A list of file names.
+  """
+
+  file_names = []
+  if os.path.isdir(folder):
+    for f in os.listdir(folder):
+      if os.path.isfile(os.path.join(folder, f)):
+        if len(extension) == 0:
+          file_names.append(f)
+        else:
+          if not extension.startswith('.'):
+            extension = '.' + extension
+          if extension == os.path.splitext(f)[1]:
+            file_names.append(f)
+  return file_names
