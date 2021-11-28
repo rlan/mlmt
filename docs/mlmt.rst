@@ -20,6 +20,14 @@ mlmt.logger module
    :undoc-members:
    :show-inheritance:
 
+mlmt.model module
+-----------------
+
+.. automodule:: mlmt.model
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 mlmt.running\_stats module
 --------------------------
 
